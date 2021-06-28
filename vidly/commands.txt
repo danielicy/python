@@ -1,0 +1,10 @@
+#commands:
+
+django-admin startproject vidly .
+python manage.py startapp movies 
+
+to start server:
+python manage.py runserver
+
+python mange.py migrate   
+python manage.py makemigrations 
