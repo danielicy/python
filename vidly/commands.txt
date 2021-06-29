@@ -8,3 +8,6 @@ python manage.py runserver
 
 python mange.py migrate   
 python manage.py makemigrations 
+
+#to collect all static files from all apps and copy them to static folder
+ python manage.py collectstatic
